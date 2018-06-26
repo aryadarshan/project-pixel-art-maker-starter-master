@@ -1,5 +1,5 @@
 // the currently selectec color is stored here
-var selectedColor;
+let selectedColor;
 
 // attach events
 document.querySelector("#sizePicker").addEventListener("submit", makeGrid);
